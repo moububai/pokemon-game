@@ -1,0 +1,117 @@
+
+
+.pokemon-box
+{
+    text-align: center;
+
+}
+
+.pokemon_image 
+{
+
+    max-width: 300%;
+
+}
+
+body
+{
+    color:black;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+span
+{
+    color: black;
+}
+
+.o-correct
+{
+    color: green;
+}
+
+html, body
+{
+    margin:0;
+    padding:0;
+
+}
+
+body
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.find
+{
+    position: fixed;
+    align-items: center;
+    top:300px;
+}
+
+
+.searchB 
+{
+    border:unset;
+    background: rgb(49, 176, 255);
+    padding: 0.5em;
+    color: white;
+    cursor: pointer;
+}
+
+.autocomplete-input
+{
+    background: rgb(243, 243, 243);
+    border:unset;
+    margin: unset;
+    padding: 0.5em;
+
+}
+
+
+.search
+{
+    display: inline-block;
+    position: relative;
+    
+    
+}
+
+
+
+.autocomplete-list
+{
+    
+    list-style: none;
+    padding:unset;
+    margin:unset;
+    position: absolute;
+    width: 100%;
+
+
+}
+.autocomplete-list li
+{
+    border: 5px solid white;
+    border-top: unset;
+}
+
+.autocomplete-list li:hover
+{
+    background: rgb(214, 224, 255);
+}
+
+.autocomplete-list button
+{
+    border: unset;
+    cursor:pointer;
+    background: unset;
+    position: relative;
+    width: 100%;
+    text-align: left;
+}
+
